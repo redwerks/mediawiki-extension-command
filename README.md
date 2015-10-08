@@ -71,6 +71,12 @@ $ mediawiki-extension download SemanticMediaWiki SemanticForms
 
 `mediawiki-extension` only fetches extensions and places them in `extensions/`. It does not install them. You will still need to add a `require_once` line and configuration in your `LocalSettings.php`.
 
+To delete an old manually installed extension and replace it with one `mediawiki-extension` can mange, use the `-f`/`--force` option.
+
+```shell
+$ mediawiki-extension download -f ParserFunctions
+```
+
 ### Update extensions
 `mediawiki-extension update` updates one or more MediaWiki extensions to the latest version.
 
