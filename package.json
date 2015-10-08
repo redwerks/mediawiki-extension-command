@@ -1,6 +1,6 @@
 {
   "name": "mediawiki-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An interactive tool that installs and upgrades MediaWiki extensions.",
   "keywords": [
     "mediawiki",
