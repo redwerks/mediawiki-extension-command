@@ -79,5 +79,6 @@
     "which": "^1.1.2",
     "xdg-basedir": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "preferGlobal": true
 }
