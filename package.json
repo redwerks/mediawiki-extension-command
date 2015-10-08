@@ -1,0 +1,83 @@
+{
+  "name": "mediawiki-extension",
+  "version": "0.1.0",
+  "description": "An interactive tool that installs and upgrades MediaWiki extensions.",
+  "keywords": [
+    "mediawiki",
+    "mediawiki-extensions",
+    "wiki",
+    "composer",
+    "cli",
+    "tools",
+    "install"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Redwerks Systems Inc.",
+    "url": "http://redwerks.org"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Friesen",
+      "email": "d@danf.ca",
+      "url": "http://danielfriesen.name/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redwerks/mediawiki-extension-command.git"
+  },
+  "homepage": "https://github.com/redwerks/mediawiki-extension-command",
+  "bugs": {
+    "url": "https://github.com/redwerks/mediawiki-extension-command/issues"
+  },
+  "bin": {
+    "mediawiki-extension": "bin/mediawiki-extension"
+  },
+  "dependencies": {
+    "abbrev": "^1.0.7",
+    "babel": "^5.8.23",
+    "bluebird": "^2.10.1",
+    "byline": "^4.2.1",
+    "chalk": "^1.1.1",
+    "cli-color": "^1.0.0",
+    "configstore": "^1.2.1",
+    "debug": "^2.2.0",
+    "decompress-zip": "^0.2.0",
+    "event-stream": "^3.3.1",
+    "findup-sync": "^0.3.0",
+    "git-cmd": "^0.2.1",
+    "glob": "^5.0.14",
+    "graceful-fs": "^4.1.2",
+    "inquirer": "^0.9.0",
+    "insight": "^0.7.0",
+    "is-root": "^1.0.0",
+    "lockfile": "^1.0.1",
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.6",
+    "multimeter": "^0.1.1",
+    "mv": "^2.1.1",
+    "nomnom": "^1.8.1",
+    "opn": "^3.0.2",
+    "os-homedir": "^1.0.1",
+    "os-tmpdir": "^1.0.1",
+    "progbar": "^1.1.0",
+    "progress": "^1.1.8",
+    "progress-stream": "^1.1.1",
+    "promising-request": "^0.1.0",
+    "request": "^2.64.0",
+    "request-progress": "^0.3.1",
+    "request-promise": "^0.4.3",
+    "rimraf": "^2.4.3",
+    "semver": "^5.0.3",
+    "strip-ansi": "^3.0.0",
+    "superagent-bluebird-promise": "^2.1.0",
+    "tar-fs": "^1.8.1",
+    "tmp": "0.0.27",
+    "update-notifier": "^0.5.0",
+    "which": "^1.1.2",
+    "xdg-basedir": "^2.0.0"
+  },
+  "devDependencies": {}
+}
