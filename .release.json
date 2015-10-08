@@ -1,0 +1,10 @@
+{
+	"tagName": "v%s",
+	"buildCommand": "gulp",
+	"dist": {
+		"baseDir": false
+	},
+	"npm": {
+		"publishPath": "./build"
+	}
+}
