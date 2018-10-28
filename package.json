@@ -62,7 +62,8 @@
     "tmp": "0.0.28",
     "update-notifier": "^0.5.0",
     "which": "^1.2.0",
-    "xdg-basedir": "^2.0.0"
+    "xdg-basedir": "^2.0.0",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -72,5 +73,10 @@
     "gulp-replace": "^0.5.4",
     "run-sequence": "^1.1.4"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
